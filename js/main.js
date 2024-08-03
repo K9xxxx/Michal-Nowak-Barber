@@ -189,4 +189,27 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector('.mobile-navigation').classList.remove('active')
         document.querySelector('.contact').scrollIntoView({behavior:'smooth'})
     })
+
+    // kod do aktywnej animacji nawigacji podczas scrollowania
+
+    const navTop = document.querySelector('.nav-top');
+    const navNav = document.querySelector('.nav-nav');
+    
+    let lastScrollTop = 0;
+
+    window.addEventListener('scroll', () => {
+        let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+        
+        if (currentScroll > lastScrollTop) {
+            // Scrolling down
+            navTop.classList.add('active');
+            navNav.classList.add('active');
+        } else {
+            // Scrolling up
+            navTop.classList.remove('active');
+            navNav.classList.remove('active');
+        }
+
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+    });
 });
