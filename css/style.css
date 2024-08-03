@@ -18,7 +18,7 @@ nav{
     position:fixed;
     top:0;
     width:100vw;
-    height:125px;
+    height:auto;
     z-index:33;
     background: var(--black);
 }
@@ -27,6 +27,12 @@ nav{
     display:flex;
     padding:0px 128px;
     height:25px;
+    transition:all .3s ease-in-out;
+    position:relative;
+    margin-top:0px;
+}
+.nav-top.active{
+    margin-top:-25px;
 }
 .nav-socials{
     display:flex;
@@ -66,14 +72,17 @@ nav{
 }
 
 
-
+.nav-nav.active .nav-desk{
+    height:80px;
+}
 .nav-desk{
     height:100px;
     display:flex;
     width:100%;
     justify-content: center;
     align-items: center;
-    border-bottom:1px solid hsl(0,0%,30%)
+    border-bottom:1px solid hsl(0,0%,30%);
+    transition:all .3s ease-in-out;
 }
 .nav-mob{
     display:none;
