@@ -1308,7 +1308,7 @@ footer{
         top:20px;
         right:20px;
         margin-bottom:-60px;
-        z-index:99;
+        z-index:99 !important;
     }
     .header-intro {
         width: 100%;
