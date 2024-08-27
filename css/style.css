@@ -1306,9 +1306,12 @@ footer{
         display:block;
         position:absolute;
         top:20px;
-        right:20px;
+        right:30px;
         margin-bottom:-60px;
         z-index:99;
+    }
+    .nav-mob img{
+
     }
     .header-intro {
         width: 100%;
