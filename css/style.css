@@ -1303,12 +1303,12 @@ footer{
         display:none;
     }
     .nav-mob{
-        display:inline;
+        display:block;
         position:absolute;
         top:20px;
         right:20px;
         margin-bottom:-60px;
-        z-index:99 !important;
+        z-index:99;
     }
     .header-intro {
         width: 100%;
