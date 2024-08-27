@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const texts = document.querySelectorAll('.nav-infoo');
     const navClose = document.querySelector('.nav-close-icon');
     const navNavi = document.querySelector('.nav-navigation-icon');
-    const navNaviMob = document.querySelector('.nav-navigation-icon.nav-nav-mobb');
+    const navNaviMob = document.querySelector('.nav-mob img');
     let tittleOfSectionH3 = document.querySelectorAll('.tittle-of-section h3');
     let tittleOfOrna = document.querySelectorAll('.tittle-orna');
     let HeaderOrna = document.querySelectorAll('.orna-div');
