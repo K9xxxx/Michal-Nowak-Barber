@@ -551,6 +551,18 @@ video::-webkit-media-controls-panel {
 .contact-flex.active .form-box input {
     transform:scaleY(1)
 }
+.contact-flex.active .form-box:nth-child(1) input {
+    transition-delay:0.2s
+}
+.contact-flex.active .form-box:nth-child(2) input {
+    transition-delay:0.4s
+}
+.contact-flex.active .form-box:nth-child(3) input {
+    transition-delay:0.6s
+}
+.contact-flex.active .form-box:nth-child(4) textarea {
+    transition-delay:0.8s
+}
 .form-box textarea{
     font-size:14px;
     width:100%;
