@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     ScrollTrigger.create({
         trigger: '.about-us-flex',
-        start: 'top 60%',
+        start: 'top 60%', 
         once: true,
         onEnter: animateText
     });
@@ -212,4 +212,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
         lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
     });
+
+    const today = new Date().getDay(); // 0 = niedziela, 1 = poniedziałek, ...
+
+    // Wyszukaj wszystkie <p> z atrybutem data-day
+    const allDayElements = document.querySelectorAll(`p[data-day="${today}"]`);
+
+    allDayElements.forEach(el => {
+      el.classList.add('highlight-today');
+    });
+
 });
