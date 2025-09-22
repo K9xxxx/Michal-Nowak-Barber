@@ -23,14 +23,25 @@ nav{
     background: var(--black);
 }
 .content {
-    padding:310px 0px
+    padding:200px 80px 100px;
 }
 .content article{
     color:#E0DDDD;
+    margin:24px 0px;
+    font-size:18px;
 }
-.content article h1{
+.content article a{
+    color:#E0DDDD;
+    margin:24px 0px;
+    font-size:18px;
+}
+.content h1{
     font-size:48px;
-    margin-bottom:24px
+    margin-bottom:48px;
+    color:#E0DDDD;
+}
+.foot-section p.highlight-today{
+    color:var(--gold);
 }
 .nav-top{
     border-bottom:1px solid hsl(0,0%,30%);
@@ -1416,6 +1427,9 @@ footer{
     header video {
         margin-left:-40%;
     }
+    .content{
+        padding:50px 40px;
+    }
 }
 @media only screen and (max-width:700px){
     .intro-no1:nth-child(2){
@@ -1479,6 +1493,12 @@ footer{
     .about-us-info article {
         font-size: 16px;
         line-height: 24px;
+    }
+    .content article{
+        font-size:16px;
+    }
+    .content h1{
+        font-size:32px;
     }
 }
 
@@ -1569,6 +1589,9 @@ footer{
     }
 }
 @media only screen and (max-width:400px){
+    .content{
+        padding: 50px 24px;
+    }
     .intro-no1 .orna-div{
         margin-top:-60px;
     }
