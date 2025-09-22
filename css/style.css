@@ -983,6 +983,9 @@ footer{
 .galery-mob{
     display:none;
 }
+.foot-section p.highlight-today{
+    color:var(--gold);
+}
 .swiper {
     width: 100%;
     height: auto;
