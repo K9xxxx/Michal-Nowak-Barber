@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
     let resButton = document.querySelectorAll('.intro-no1:nth-child(4)');
     let formBoxInput = document.querySelectorAll('.form-box input');
     let formBoxTeaxtarea = document.querySelector('.form-box textarea');
+    const cookiesAccept = document.getElementById('cookies-accept')
+    const cookiesRefuse = document.getElementById('cookies-refuse')
 
     let activeIndex = null;
 
@@ -221,5 +223,12 @@ document.addEventListener("DOMContentLoaded", function() {
     allDayElements.forEach(el => {
       el.classList.add('highlight-today');
     });
+
+    cookiesAccept.addEventListener('click',()=>{
+        document.querySelector('.cookies-banner').classList.add('displayNone')
+    })
+    cookiesRefuse.addEventListener('click',()=>{
+        document.querySelector('.cookies-banner').classList.add('displayNone')
+    })
 
 });
