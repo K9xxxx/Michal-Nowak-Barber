@@ -268,7 +268,7 @@ video::-webkit-media-controls-panel {
 
 }
 .some-info-inside{
-    background:url('../img/section1-testIMG1.png');
+    background:url('../img/section1-testIMG1.webp');
     width:600px;
     height:650px;
     align-self: center;
@@ -287,11 +287,11 @@ video::-webkit-media-controls-panel {
     margin:0 auto;
 }
 .section1-some-imgs.img1{
-    background: url('../img/section1-testIMG2.png');
+    background: url('../img/section1-testIMG2.webp');
     background-position:100% 50%;
 }
 .section1-some-imgs.img2{
-    background: url('../img/section1-testIMG3.png');
+    background: url('../img/section1-testIMG3.webp');
     background-position:100% 70%;
 }
 .tittle-of-section{
@@ -337,7 +337,7 @@ video::-webkit-media-controls-panel {
     text-shadow:2px 2px 2px var(--black);
 }
 .section-services{
-    background:url('../img/section3-imgTEST1L.png');
+    background:url('../img/section3-imgTEST1L.webp');
     height:800px;
     width:100%;
     background-repeat: no-repeat;
@@ -496,7 +496,7 @@ video::-webkit-media-controls-panel {
 }
 .about-us-img{
     width:50%;
-    background:url('../img/big-o-nas.png');
+    background:url('../img/big-o-nas.webp');
     background-repeat: no-repeat;
     background-size: 80% 80%;
     background-position: 50% 50%;
@@ -526,7 +526,7 @@ video::-webkit-media-controls-panel {
     display:flex;
 }
 .contact-left{
-    background:url('../img/kontakt-big.png');
+    background:url('../img/kontakt-big.webp');
     width:50%;
     background-size: cover;
 }
@@ -1106,7 +1106,7 @@ footer{
     display:block;
     }   
     .section1-some-imgs.img1 {
-    background: url(../img/section1-testIMG2.png);
+    background: url(../img/section1-testIMG2.webp);
     background-position: 90% 0%;
     background-size:cover;
     margin-bottom:32px;
@@ -1166,7 +1166,7 @@ footer{
     width:0;
 }
 .contact-left {
-    background: url(../img/kontakt-big.png);
+    background: url(../img/kontakt-big.webp);
     width: 100%;
     background-size: cover;
 }
@@ -1382,7 +1382,7 @@ footer{
         display:inline;
     }
     .section1-some-imgs.img1 {
-        background: url(../img/section1-testIMG2.png);
+        background: url(../img/section1-testIMG2.webp);
         background-position: 90% 0%;
         background-size: cover;
         margin:32px auto;
@@ -1559,7 +1559,7 @@ footer{
         width: 270px;
     }
     .section1-some-imgs.img2 {
-        background: url(../img/section1-testIMG3.png);
+        background: url(../img/section1-testIMG3.webp);
         background-position: 50% 50%;
     }
     header video {
